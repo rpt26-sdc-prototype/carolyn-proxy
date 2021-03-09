@@ -15,19 +15,28 @@ const Footer = () => {
           <br />
         </div>
         <div className="rule"></div>
-        <div id="valve">
-          <a id="#footer-valve-logo" href="">
-            <img src="https://steam-fec.s3.amazonaws.com/images/footerLogo_valve_new.png" alt="steam logo" width="90" height="30" />
-          </a>
-          <span className="footer-text">
-            <span>© 2021 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the 2 US and other countries</span>
-            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VAT included in all prices where applicable.</div>
-          </span>
-          <a id="#footer-steam-logo" href="">
-            <img src="https://steam-fec.s3.amazonaws.com/images/logo_steam_footer.png" alt="steam logo" width="90" height="30" />
-          </a>
-          <br />
+        <div id="footer-nav">
+          <div className="logo">
+            <span id="valve_holder">
+              <a href="#home">
+                <img src="https://steam-fec.s3.amazonaws.com/images/footerLogo_valve_new.png" alt="steam logo" width="90" height="25" />
+              </a>
+            </span>
+          </div>
+          <div id="foot_container">
+            <div id="footer-notes">
+              <span class="text">© 2021 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the 2 US and other countries</span>
+              <div class="text">VAT included in all prices where applicable.</div>
+            </div>
+            {/* <div>
+              <a id="#footer-steam-logo" href="">
+                <img src="https://steam-fec.s3.amazonaws.com/images/logo_steam_footer.png" alt="steam logo" width="90" height="30" />
+              </a>
+            </div> */}
+          </div>
         </div>
+
+
         <div className="rule"></div>
         <div id="bottom-links">
           <a href="">About Valve&nbsp;&nbsp;|</a>
@@ -40,6 +49,7 @@ const Footer = () => {
           <a href="">&nbsp;&nbsp;<img id="twitter-logo" src="https://steam-fec.s3.amazonaws.com/images/ico_twitter.gif" alt="twitter logo" width="17" height="17" />&nbsp;@steam</a>
           <br />
         </div>
+
       </footer>
     </div>
   );

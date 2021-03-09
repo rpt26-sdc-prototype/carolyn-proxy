@@ -12,13 +12,20 @@
   padding-left: 400px;
 }
 
+#footer-nav {
+  background-color: #171a21;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 400px;
+}
+
 .supernav_container {
   padding: 14px 16px;
   margin-left: 185px;
   font-size: 16px;
 }
 
-#logo_holder {
+#logo_holder, #valve_holder {
   position: absolute;
 }
 
@@ -60,7 +67,7 @@ a:hover {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 250px;
+  height: 230px;
   color: #e5e4dc;
   background-color: #171a21;
 
@@ -88,15 +95,26 @@ a:hover {
   border-radius: 3px;
 }
 
-#footer-text {
-  position: absolute;
-  top: 150px;
-}
 
-#footer-valve-logo {
-  position: absolute;
-}
 
 #fb-logo, #twitter-logo {
   vertical-align: middle;
 }
+
+#footer-notes {
+  font-size: 13px;
+}
+
+.text {
+  padding-left: 100px;
+}
+
+#foot_container{
+  margin-top: -30px;
+  margin-bottom: -20px;
+}
+
+#valve_holder {
+  margin-top: -26px;
+}
+
