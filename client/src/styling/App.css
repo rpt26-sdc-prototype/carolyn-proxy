@@ -6,17 +6,14 @@
   font-family: 'Yantramanav', sans-serif;
 }
 
-#total-nav {
+#total-nav, #footer-nav {
   background-color: #171a21;
   padding: 30px;
   padding-left: 400px;
 }
 
-#footer-nav {
-  background-color: #171a21;
-  padding-top: 30px;
+#footer-nav{
   padding-bottom: 10px;
-  padding-left: 400px;
 }
 
 .supernav_container {
@@ -34,7 +31,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover, #header_installsteam_btn_content:hover {
   color: #ffffff;
 }
 
@@ -52,10 +49,6 @@ a:hover {
   color: #e5e4dc;
   background-color: #5c7e10;
   padding: 4px 10px;
-}
-
-#header_installsteam_btn_content:hover {
-  color: #ffffff;
 }
 
 #install-login-language {
@@ -111,10 +104,20 @@ a:hover {
 
 #foot_container{
   margin-top: -30px;
-  margin-bottom: -20px;
+  margin-bottom: -5px;
 }
 
 #valve_holder {
   margin-top: -26px;
+
 }
 
+#footer-steam-logo {
+  margin-top: -30px;
+  padding-left: 835px;
+}
+
+#steam-small-logo {
+  margin-left: 38px;
+  margin-top: 15px;
+}
