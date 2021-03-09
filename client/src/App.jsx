@@ -6,7 +6,7 @@ import Footer from './components/Footer.jsx';
 
 const App = () => {
   return (
-    <div id="responsive_page_content" >
+    <div id="page_content" >
       <Header />
       {/* erase this below afterwards, holding place onlt */}
       <h1>GALLERY IMAGE</h1>

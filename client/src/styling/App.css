@@ -1,4 +1,4 @@
-#responsive_page_content {
+#page_content {
   background-image: url('https://steam-fec.s3.amazonaws.com/images/background.jpg');
   height: 100vh;
   width: 100vw;
@@ -26,7 +26,7 @@
   position: absolute;
 }
 
-a {
+a, #line-separator {
   color: #b8b6b4;
   text-decoration: none;
 }
@@ -39,10 +39,6 @@ a:hover, #header_installsteam_btn_content:hover {
   float: right;
   padding-top: 10px;
   padding-right: 420px;
-}
-
-#line-separator {
-  color: #b8b6b4;
 }
 
 #header_installsteam_btn_content {
@@ -88,8 +84,6 @@ a:hover, #header_installsteam_btn_content:hover {
   border-radius: 3px;
 }
 
-
-
 #fb-logo, #twitter-logo {
   vertical-align: middle;
 }
@@ -109,7 +103,6 @@ a:hover, #header_installsteam_btn_content:hover {
 
 #valve_holder {
   margin-top: -26px;
-
 }
 
 #footer-steam-logo {
