@@ -1,11 +1,9 @@
 import React from 'react';
-// import svg from './images/logo_steam.svg';
 
 import './App.css';
-import { FaDownload } from 'react-icons/fa';
+import { FaDownload, FaTwitter } from 'react-icons/fa';
 import { IoMdArrowDropdown } from 'react-icons/io';
 import { GrFacebook } from 'react-icons/gr';
-import { FaTwitter } from 'react-icons/fa';
 
 
 const Background = () => {
@@ -56,14 +54,14 @@ const Background = () => {
         </div>
         <div className="rule"></div>
         <div id="valve">
-          <a href="#footer-valve-logo">
+          <a id="#footer-valve-logo" href="">
             <img src="https://steam-fec.s3.amazonaws.com/images/footerLogo_valve_new.png" alt="steam logo" width="90" height="30" />
           </a>
           <span class="footer-text">
-            <span>© 2021 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the2 US and other countries</span>
+            <span>© 2021 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the 2 US and other countries</span>
             <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VAT included in all prices where applicable.</div>
           </span>
-          <a href="#footer-valve-logo">
+          <a id="#footer-steam-logo" href="">
             <img src="https://steam-fec.s3.amazonaws.com/images/logo_steam_footer.png" alt="steam logo" width="90" height="30" />
           </a>
           <br />
@@ -76,8 +74,8 @@ const Background = () => {
           <a href="">&nbsp;&nbsp;Steam Distribution&nbsp;|</a>
           <a href="">&nbsp;&nbsp;Gift Cards&nbsp;|</a>
           <a href="">&nbsp;&nbsp;Gift Cards&nbsp;|</a>
-          <a href="">&nbsp;&nbsp;<GrFacebook />&nbsp;Steam&nbsp;|</a>
-          <a href="">&nbsp;&nbsp;<FaTwitter />&nbsp;@steam</a>
+          <a href="">&nbsp;&nbsp;<GrFacebook style={{ color: '#4267B2', backgroundColor: 'white' }} />&nbsp;Steam&nbsp;|</a>
+          <a href="">&nbsp;&nbsp;<FaTwitter style={{ color: '#1DA1F2' }} />&nbsp;@steam</a>
           <br />
         </div>
       </footer>
