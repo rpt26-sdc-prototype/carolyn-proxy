@@ -96,3 +96,7 @@ a:hover {
 #footer-valve-logo {
   position: absolute;
 }
+
+#fb-logo, #twitter-logo {
+  vertical-align: middle;
+}

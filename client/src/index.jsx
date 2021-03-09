@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Background from './Background.jsx';
+import App from './App.jsx';
 
 ReactDOM.render(
-  <Background />, document.getElementById('root'));
+  <App />, document.getElementById('root'));
