@@ -4,4 +4,4 @@ import './styling/index.css';
 import App from './App.jsx';
 
 ReactDOM.render(
-  <App />, document.getElementById('root'));
+  <App />, document.getElementById('anthony-proxy'));
