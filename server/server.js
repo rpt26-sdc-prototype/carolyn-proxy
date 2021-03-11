@@ -1,13 +1,15 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-
 const fs = require('fs');
+const cors = require('cors');
 
 // configs
 const dotenv = require('dotenv');
 dotenv.config({ path: 'config/config.env' });
 
+
+// app.use(cors);
 // shows static files react index.html
 app.use(express.static(path.join(__dirname, '../public')));
 
