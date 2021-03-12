@@ -17,7 +17,8 @@ const NavBar = () => {
         <span className="navbar-selections"><a class="nav-select" href="">News</a></span>
         <span className="navbar-selections"><a class="nav-select" href="">Steam Labs</a></span>
         <span id="store_nav_search_term" >
-          <input type='text' placeholder='search the store' id='search-text-input' />&nbsp;&nbsp;  <span><FaSearch /></span>
+          <input type='text' placeholder='search the store' id='search-text-input' />
+          <button id="search-button"><FaSearch /></button>
         </span>
 
       </div>
