@@ -11,3 +11,123 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#total-nav, #footer-nav {
+  background-color: #171a21;
+  padding: 30px;
+  padding-left: 400px;
+}
+
+#footer-nav{
+  padding-bottom: 10px;
+}
+
+.supernav_container {
+  padding: 14px 16px;
+  margin-left: 185px;
+  font-size: 16px;
+}
+
+#logo_holder, #valve_holder {
+  position: absolute;
+}
+
+a, #line-separator {
+  color: #b8b6b4;
+  text-decoration: none;
+}
+
+a:hover, #header_installsteam_btn_content:hover {
+  color: #ffffff;
+}
+
+#global_action_menu {
+  float: right;
+  padding-top: 10px;
+  padding-right: 420px;
+}
+
+#header_installsteam_btn_content {
+  color: #e5e4dc;
+  background-color: #5c7e10;
+  padding: 4px 10px;
+}
+
+#install-login-language {
+  font-size: 13px;;
+}
+
+#footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 230px;
+  color: #e5e4dc;
+  background-color: #171a21;
+
+}
+
+.rule {
+  height: 8px;
+  border-top: 1px solid #585858;
+  margin: 10px 420px 5px 400px;
+}
+
+#more-info, #valve, #bottom-links {
+  font-size: 14px;
+  margin-left: 400px;
+  margin-right: 420px;
+}
+
+.footer-items {
+  color: #e5e4dc;
+  display: inline-block;
+  background-color:#545454;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+#fb-logo, #twitter-logo {
+  vertical-align: middle;
+}
+
+#footer-notes {
+  font-size: 11px;
+}
+
+.text {
+  padding-left: 100px;
+}
+
+#foot_container{
+  margin-top: -30px;
+  margin-bottom: -5px;
+}
+
+#valve_holder {
+  margin-top: -26px;
+}
+
+#footer-steam-logo {
+  margin-top: -30px;
+  padding-left: 820px;
+}
+
+#steam-small-logo {
+  margin-left: 38px;
+  margin-top: 15px;
+}
+
+.footer-links {
+  color: #e5e4dc;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#bottom-links {
+  font-weight: bold;
+  font-size: 13px;
+}

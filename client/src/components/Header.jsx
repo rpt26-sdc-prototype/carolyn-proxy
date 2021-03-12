@@ -12,7 +12,7 @@ const Header = () => {
               <a href="#install-steam" id="header_installsteam_btn_content"><FaDownload />&nbsp;&nbsp;Install Steam</a>
               <a href="#login" >&nbsp;&nbsp;&nbsp;login</a>
               <span id="line-separator">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-              <a href="#install-steam" >language <IoMdArrowDropdown /></a>
+              <a href="#install-steam" >language&nbsp;<IoMdArrowDropdown /></a>
             </div>
           </div>
           <div id="total-nav">

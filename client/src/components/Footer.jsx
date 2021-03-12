@@ -53,7 +53,7 @@ const Footer = () => {
           <a href="">&nbsp;&nbsp;Steam Distribution&nbsp;|</a>
           <a href="">&nbsp;&nbsp;Gift Cards&nbsp;|</a>
           <a href="">&nbsp;&nbsp;Gift Cards&nbsp;|</a>
-          <a href="">&nbsp;&nbsp; <img id="fb-logo" src="https://steam-fec.s3.amazonaws.com/images/ico_facebook.gif" alt="fb logo" width="17" height="17" />&nbsp;Steam&nbsp;|</a>
+          <a href="">&nbsp;&nbsp;<img id="fb-logo" src="https://steam-fec.s3.amazonaws.com/images/ico_facebook.gif" alt="fb logo" width="17" height="17" />&nbsp;Steam&nbsp;|</a>
           <a href="">&nbsp;&nbsp;<img id="twitter-logo" src="https://steam-fec.s3.amazonaws.com/images/ico_twitter.gif" alt="twitter logo" width="17" height="17" />&nbsp;@steam</a>
           <br />
         </div>
