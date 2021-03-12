@@ -17,9 +17,9 @@
 
 .nav-select:after {
   content: '';
-  height: 240%;
+  height: 290%;
   width: 0.5px;
-  margin-top: -12px;
+  margin-top: -16px;
   position: absolute;
   right: 0;
   top: 0;
