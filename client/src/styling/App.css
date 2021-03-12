@@ -1,12 +1,3 @@
-#page_content {
-  background-image: url('https://steam-fec.s3.amazonaws.com/images/background.jpg');
-  height: 100vh;
-  width: 100vw;
-   background-size: cover;
-  font-family: 'Yantramanav', sans-serif;
-}
-
-
 #total-nav, #footer-nav {
   background-color: #171a21;
   padding: 30px;
@@ -53,7 +44,7 @@ a:hover, #header_installsteam_btn_content:hover {
 }
 
 #footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -90,7 +81,7 @@ a:hover, #header_installsteam_btn_content:hover {
 }
 
 #footer-notes {
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .text {
@@ -108,10 +99,21 @@ a:hover, #header_installsteam_btn_content:hover {
 
 #footer-steam-logo {
   margin-top: -30px;
-  padding-left: 835px;
+  padding-left: 820px;
 }
 
 #steam-small-logo {
   margin-left: 38px;
   margin-top: 15px;
+}
+
+.footer-links {
+  color: #e5e4dc;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#bottom-links {
+  font-weight: bold;
+  font-size: 13px;
 }

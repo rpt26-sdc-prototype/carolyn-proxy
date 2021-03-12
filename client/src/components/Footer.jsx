@@ -26,7 +26,15 @@ const Footer = () => {
           <div id="foot_container">
             <div id="footer-notes">
               <span className="text">© 2021 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the 2 US and other countries</span>
-              <div className="text">VAT included in all prices where applicable.</div>
+              <div className="text">VAT included in all prices where applicable.
+              <span>
+                  <a className="footer-links" href="">&nbsp;&nbsp;&nbsp;Privacy Policy&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+                  <a className="footer-links" href="">Legal&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+                  <a className="footer-links" href="">Steam Subscriber Agreement&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+                  <a className="footer-links" href="">Refunds</a>
+                </span>
+              </div>
+
             </div>
           </div>
           <div id="footer-steam-logo" >
