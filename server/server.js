@@ -22,7 +22,7 @@ app.get('/:page', (req, res) => {
 });
 
 // GET Request from "IMAGE GALLERY's Sever Port"
-app.get('/reviews/:page', async (req, res) => {
+app.get('/images/:page', async (req, res) => {
   const { data } = await axios.get(`http://localhost:4012/images/${req.params.page}`)
   res.send(data);
 })
