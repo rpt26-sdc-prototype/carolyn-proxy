@@ -112,8 +112,9 @@ a:hover, #header_installsteam_btn_content:hover {
 }
 
 #footer-steam-logo {
+  float: right;
   margin-top: -30px;
-  padding-left: 870px;
+  padding-right: 145px;
 }
 
 .footer-links {
