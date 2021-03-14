@@ -15,7 +15,7 @@ code {
 #total-nav, #footer-nav {
   background-color: #171a21;
   padding: 30px;
-  padding-left: 400px;
+  padding-left: 175px;
 }
 
 #footer-nav{
@@ -44,7 +44,7 @@ a:hover, #header_installsteam_btn_content:hover {
 #global_action_menu {
   float: right;
   padding-top: 10px;
-  padding-right: 420px;
+  padding-right: 175px;
 }
 
 #header_installsteam_btn_content {
@@ -71,13 +71,13 @@ a:hover, #header_installsteam_btn_content:hover {
 .rule {
   height: 8px;
   border-top: 1px solid #585858;
-  margin: 10px 420px 5px 400px;
+  margin: 10px 175px 5px 175px;
 }
 
 #more-info, #valve, #bottom-links {
   font-size: 14px;
-  margin-left: 400px;
-  margin-right: 420px;
+  margin-left: 175px;
+  margin-right: 175px;
 }
 
 .footer-items {
@@ -113,12 +113,7 @@ a:hover, #header_installsteam_btn_content:hover {
 
 #footer-steam-logo {
   margin-top: -30px;
-  padding-left: 820px;
-}
-
-#steam-small-logo {
-  margin-left: 38px;
-  margin-top: 15px;
+  padding-left: 870px;
 }
 
 .footer-links {
