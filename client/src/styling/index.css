@@ -77,7 +77,7 @@ a:hover, #header_installsteam_btn_content:hover {
 #more-info, #valve, #bottom-links {
   font-size: 14px;
   margin-left: 175px;
-  margin-right: 175px;
+  /* margin-right: 175px; */
 }
 
 .footer-items {
