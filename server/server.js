@@ -17,18 +17,36 @@ app.use(express.static(path.join(__dirname, '../public')));
 app.use(express.json());
 
 // GET Request for proxy
-app.get('/:page', (req, res) => {
+app.get('/:id', (req, res) => {
   res.sendFile(path.resolve('public/index.html'));
 });
 
-// GET Request from "IMAGE GALLERY's Sever Port"
-app.get('/images/:page', async (req, res) => {
-  const { data } = await axios.get(`http://localhost:4012/images/${req.params.page}`)
+// GET Request from "IMAGE GALLERY" Server Port
+app.get('/images/:id', async (req, res) => {
+  const { data } = await axios.get(`http://localhost:4012/images/${req.params.id}`)
   res.send(data);
 })
 
+// GET Request from "REVIEWS" Server Port
+app.get('/reviews/:id', async (req, res) => {
+  const { data } = await axios.get(`http://localhost:4052/reviews/${req.params.id}`)
+  res.send(data)
+})
+
+// GET Request from "MORE LIKE THIS" Server Port
+app.get('/morelikethis/:id', async (req, res) => {
+  await axios.get(`http://localhost:4022/morelikethis/${req.params.id}`)
+    .then(response => {
+      res.send(response.data);
+    })
+    .catch(err => {
+      console.log('Error with GET request to server', err);
+      res.status(404).end();
+    });
+});
+
 // server connection
-const PORT = process.env.PORT || 4011;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Listening on PORT ${PORT} 👍!`)
 });
