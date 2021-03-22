@@ -27,32 +27,36 @@ app.get('/:id', (req, res) => {
 // GET Request from "IMAGE GALLERY" Server Port
 app.get('/images/:id', async (req, res) => {
   const { data } = await axios.get(`http://localhost:4012/images/${req.params.id}`)
-  console.log(data)
   res.send(data);
 })
 
-// // GET Request from "REVIEWS" Server Port
+// GET Request from "REVIEWS" Server Port
 app.get('/reviews/:id', async (req, res) => {
   const { data } = await axios.get(`http://localhost:4052/reviews/${req.params.id}`);
-  console.log(data)
   res.send(data);
 });
 
 
 // // GET Request from "MORE LIKE THIS" Server Port
-// app.get('/morelikethis/:id', async (req, res) => {
-//   await axios.get(`http://localhost:4022/morelikethis/${req.params.id}`)
-//     .then(response => {
-//       res.send(response.data);
-//     })
-//     .catch(err => {
-//       console.log('Error with GET request to server', err);
-//       res.status(404).end();
-//     });
-// });
+app.get('/morelikethis/:id', async (req, res) => {
+  await axios.get(`http://localhost:4022/morelikethis/${req.params.id}`)
+    .then(response => {
+      res.send(response.data);
+    })
+    .catch(err => {
+      console.log('Error with GET request to server', err);
+      res.status(404).end();
+    });
+});
+
+// GET Request from "METADATA" Server Port
+app.get(`/api/product/:id`, async (req, res) => {
+  let { data } = await axios.get(`http://localhost:4032/api/product/${req.params.id}`);
+  res.send(data);
+});
 
 // server connection
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Listening on PORT ${PORT} 👍!`)
+  console.log(`Anthony's Proxy is listening on PORT ${PORT} 👍!`)
 });
