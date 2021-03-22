@@ -1,13 +1,13 @@
 # Project Name
 
-> Project description
+> Anthony's Proxy for FEC-Pathfinder which emulates steampowered.com's site. (ex. https://store.steampowered.com/app/813780/Age_of_Empires_II_Definitive_Edition/)
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/rpt26-fec-pathfinder/anthony-photo-gallery-service
+  - https://github.com/rpt26-fec-pathfinder/james-metadata-service
+  - https://github.com/rpt26-fec-pathfinder/calvin-more-like-this-service
+  - https://github.com/rpt26-fec-pathfinder/tim-review-service
 
 ## Table of Contents
 
