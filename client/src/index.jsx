@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// styling
-import './styling/index.css';
-
 // components
 import Header from './components/Header.jsx';
 import NavBar from './components/NavBar.jsx';

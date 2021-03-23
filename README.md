@@ -1,4 +1,4 @@
-# Project Name
+# FEC-Pathfinder - PROXY
 
 > Anthony's Proxy for FEC-Pathfinder which emulates steampowered.com's site. (ex. https://store.steampowered.com/app/813780/Age_of_Empires_II_Definitive_Edition/)
 
@@ -17,7 +17,8 @@
 
 ## Usage
 
-> Some usage instructions
+> npm install -g webpack & npm install.
+
 
 ## Requirements
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { IoMdArrowDropdown } from 'react-icons/io';
 import { FaSearch } from 'react-icons/fa';
-import '../styling/NavBar.css';
+import { Nav, NavSelect, NavSelection, Input, Button } from '../styling/NavBarStyled.jsx';
 
 
 const NavBar = () => {
@@ -9,18 +9,28 @@ const NavBar = () => {
     <div>
       <br />
       <br />
-      <div id="navbar">
-        <span className="navbar-selections"><a className="nav-select" href="">Your Store&nbsp;<IoMdArrowDropdown /></a></span>
-        <span className="navbar-selections"><a className="nav-select" href="">Browse&nbsp;
-        <IoMdArrowDropdown /></a></span>
-        <span className="navbar-selections"><a className="nav-select" href="">Points Shop</a></span>
-        <span className="navbar-selections"><a className="nav-select" href="">News</a></span>
-        <span className="navbar-selections"><a className="nav-select" href="">Steam Labs</a></span>
-        <span id="store_nav_search_term" >
-          <input type='text' placeholder='search the store' id='search-text-input' />
-          <button id="search-button"><FaSearch /></button>
+      <Nav>
+        <NavSelection>
+          <NavSelect href="#">Your Store&nbsp;<IoMdArrowDropdown /></NavSelect>
+        </NavSelection>
+        <NavSelection>
+          <NavSelect href="#">Browse&nbsp;
+        <IoMdArrowDropdown /></NavSelect>
+        </NavSelection>
+        <NavSelection>
+          <NavSelect href="#">Points Shop</NavSelect>
+        </NavSelection>
+        <NavSelection>
+          <NavSelect href="#">News</NavSelect>
+        </NavSelection>
+        <NavSelection>
+          <NavSelect href="#">Steam Labs</NavSelect>
+        </NavSelection>
+        <span style={{ float: 'right' }} >
+          <Input type='text' placeholder='search the store' />
+          <Button ><FaSearch /></Button>
         </span>
-      </div>
+      </Nav>
       <br />
       <br />
     </div >
