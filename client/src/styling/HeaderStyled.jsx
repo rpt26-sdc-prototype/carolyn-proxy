@@ -40,7 +40,7 @@ export const Top = styled.div`
 
 // Responsive Header for widescreen
 export const MediaHeader = styled.div`
-  @media (min-width: 1450px) {
+  @media (min-width: 1675px) {
     margin-left: 220px;
     margin-right: 240px;
   }

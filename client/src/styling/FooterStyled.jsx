@@ -9,7 +9,7 @@ export const Foot = styled.footer`
   color: #e5e4dc;
   background-color: #171a21;
 
-  @media (min-width: 1450px) {
+  @media (min-width: 1675px) {
     margin-left: 220px;
   }
 `
@@ -36,7 +36,7 @@ export const SteamLogo = styled.div`
   margin-top: -20px;
   padding-right: 145px;
 
-  @media (min-width: 1450px) {
+  @media (min-width: 1675px) {
     margin-right: 455px;
   }
 `
@@ -46,7 +46,7 @@ export const Line = styled.div`
   border-top: 1px solid #585858;
   margin: 10px 175px 5px 175px;
 
-   @media (min-width: 1450px) {
+   @media (min-width: 1675px) {
     margin: 10px 630px 5px 175px;
   }
 `
