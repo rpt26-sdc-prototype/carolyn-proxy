@@ -3,7 +3,7 @@ import { Foot, FootNav, FootSelection, SteamLogo, Line, Buttons } from '../styli
 
 const Footer = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: '#171a21' }}>
       <Foot>
         <br />
         <Line></Line>

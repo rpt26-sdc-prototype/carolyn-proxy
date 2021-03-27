@@ -8,6 +8,10 @@ export const Foot = styled.footer`
   height: 230px;
   color: #e5e4dc;
   background-color: #171a21;
+
+  @media (min-width: 1450px) {
+    margin-left: 220px;
+  }
 `
 
 export const FootNav = styled.div`
@@ -31,12 +35,20 @@ export const SteamLogo = styled.div`
   float: right;
   margin-top: -20px;
   padding-right: 145px;
+
+  @media (min-width: 1450px) {
+    margin-right: 455px;
+  }
 `
 
 export const Line = styled.div`
   height: 8px;
   border-top: 1px solid #585858;
   margin: 10px 175px 5px 175px;
+
+   @media (min-width: 1450px) {
+    margin: 10px 630px 5px 175px;
+  }
 `
 
 export const Buttons = styled.a`

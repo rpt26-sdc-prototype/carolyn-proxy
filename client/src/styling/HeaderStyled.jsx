@@ -38,3 +38,10 @@ export const Top = styled.div`
   padding-right: 175px;
 `
 
+// Responsive Header for widescreen
+export const MediaHeader = styled.div`
+  @media (min-width: 1450px) {
+    margin-left: 220px;
+    margin-right: 240px;
+  }
+`

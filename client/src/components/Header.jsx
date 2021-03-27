@@ -1,12 +1,12 @@
 import React from 'react';
 import { FaDownload } from 'react-icons/fa';
 import { IoMdArrowDropdown } from 'react-icons/io';
-import { SecondNav, Container, SelectItem, Top } from '../styling/HeaderStyled.jsx';
+import { SecondNav, Container, SelectItem, Top, MediaHeader } from '../styling/HeaderStyled.jsx';
 
 const Header = () => {
   return (
-    <div>
-      <div>
+    <div style={{ backgroundColor: '#171a21' }}>
+      <MediaHeader id="media-header">
         <div>
           <Top >
             <div style={{ fontSize: '13px' }}>
@@ -39,7 +39,7 @@ const Header = () => {
             </Container>
           </SecondNav>
         </div>
-      </div>
+      </MediaHeader>
     </div>
   );
 };
