@@ -18,6 +18,7 @@
 ## Usage
 
 > npm install -g webpack & npm install.
+> open package.json file for scripts
 
 
 ## Requirements
