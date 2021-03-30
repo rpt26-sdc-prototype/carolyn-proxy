@@ -42,6 +42,6 @@ export const Top = styled.div`
 export const MediaHeader = styled.div`
   @media (min-width: 1675px) {
     margin-left: 220px;
-    margin-right: 240px;
+    margin-right: 220px;
   }
 `
