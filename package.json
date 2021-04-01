@@ -13,7 +13,7 @@
     "react-dev": "webpack serve --mode development --open --hot",
     "server-dev": "nodemon ./server/server",
     "docker-build": "docker build -t anthonysim/proxy:latest .",
-    "docker-proxy": "docker run -d -p 3000:3000 anthonysim/proxy"
+    "docker-run": "docker run -d -p 3000:3000 anthonysim/proxy"
   },
   "dependencies": {
     "axios": "^0.21.1",
