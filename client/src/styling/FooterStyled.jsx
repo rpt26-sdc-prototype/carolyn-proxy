@@ -4,7 +4,6 @@ export const Foot = styled.footer`
   position: relative;
   left: 0;
   bottom: 0;
-  width: 100%;
   height: 230px;
   color: #e5e4dc;
   background-color: #171a21;
@@ -34,10 +33,10 @@ export const FootSelection = styled.a`
 export const SteamLogo = styled.div`
   float: right;
   margin-top: -20px;
-  padding-right: 145px;
+  margin-right: 145px;
 
   @media (min-width: 1675px) {
-    margin-right: 455px;
+    margin-right: 390px;
   }
 `
 
@@ -47,7 +46,7 @@ export const Line = styled.div`
   margin: 10px 175px 5px 175px;
 
    @media (min-width: 1675px) {
-    margin: 10px 630px 5px 175px;
+    margin: 10px 420px 5px 175px;
   }
 `
 
