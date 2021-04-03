@@ -13,7 +13,7 @@ const Header = () => {
               <SelectItem href="#" style={{
                 color: '#e5e4dc',
                 backgroundColor: '#5c7e10',
-                padding: '4px 10px'
+                padding: '4px 10px',
               }}><FaDownload />&nbsp;&nbsp;Install Steam</SelectItem>
               <SelectItem href="#" >&nbsp;&nbsp;&nbsp;login</SelectItem>
               <span style={{

@@ -18,7 +18,7 @@ const Footer = () => {
         <FootNav>
           <div style={{ marginTop: '-25px' }}>
             <span >
-              <Buttons href="#home">
+              <Buttons href="#">
                 <img src="https://steam-fec.s3.amazonaws.com/images/footerLogo_valve_new.png" alt="steam logo" width="90" height="25" />
               </Buttons>
             </span>
@@ -38,9 +38,9 @@ const Footer = () => {
             </div>
           </div>
           <SteamLogo >
-            <Buttons href="">
+            <div href="#" >
               <img src="https://steam-fec.s3.amazonaws.com/images/logo_steam_footer.png" alt="steam logo" width="90" height="30" />
-            </Buttons>
+            </div>
           </SteamLogo>
         </FootNav>
 
