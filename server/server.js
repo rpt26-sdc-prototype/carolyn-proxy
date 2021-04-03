@@ -8,15 +8,10 @@ const axios = require('axios');
 const dotenv = require('dotenv');
 dotenv.config({ path: 'config/config.env' });
 
-
-// app.use(cors);
-
-// shows static files react index.html
+// ors, static files, and middleware for database
+app.use(cors);
 app.use(express.static(path.join(__dirname, '../public')));
-
-// middleware for data sent to database
 app.use(express.json());
-
 
 // GET Request for proxy
 app.get('/:id', (req, res) => {
@@ -24,20 +19,20 @@ app.get('/:id', (req, res) => {
 });
 
 
-// GET Request from "IMAGE GALLERY" Server Port
+// Image Routes
 app.get('/images/:id', async (req, res) => {
   const { data } = await axios.get(`http://localhost:4012/images/${req.params.id}`)
   res.send(data);
 })
 
-// GET Request from "REVIEWS" Server Port
+// Reviews Routes
 app.get('/reviews/:id', async (req, res) => {
   const { data } = await axios.get(`http://localhost:4052/reviews/${req.params.id}`);
   res.send(data);
 });
 
 
-// // GET Request from "MORE LIKE THIS" Server Port
+// More Like This Routes
 app.get('/morelikethis/:id', async (req, res) => {
   await axios.get(`http://localhost:4022/morelikethis/${req.params.id}`)
     .then(response => {
@@ -49,7 +44,7 @@ app.get('/morelikethis/:id', async (req, res) => {
     });
 });
 
-// GET Request from "METADATA" Server Port
+// MetaData Routes
 app.get(`/api/product/:id`, async (req, res) => {
   let { data } = await axios.get(`http://localhost:4032/api/product/${req.params.id}`);
   res.send(data);
