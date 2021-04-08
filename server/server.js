@@ -35,7 +35,7 @@ app.get('/reviews/:id', async (req, res) => {
 
 // More Like This Routes
 app.get('/morelikethis/:id', async (req, res) => {
-  await axios.get(`http://localhost:4022/morelikethis/${req.params.id}`)
+  await axios.get(`http://54.193.16.203:4022/morelikethis/${req.params.id}`)
     .then(response => {
       res.send(response.data);
     })
