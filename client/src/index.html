@@ -15,7 +15,7 @@
   <title>Anthony Proxy</title>
 
   <style>
-    body {
+    * {
       margin: 0;
       padding: 0;
     }
@@ -32,6 +32,23 @@
     #moreLikeThis {
       background-color: #1b2838;
     }
+
+    #metadataApp {
+      color: #acb2b8;
+      margin-right: 30px;
+    }
+
+    #moreLikeThis {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    @media (min-width: 1675px) {
+      #metadataApp {
+        margin-top: -170px;
+        margin-right: 30px;
+      }
+    }
   </style>
 
 </head>
@@ -42,8 +59,8 @@
 
   <!-- SERVICES -->
   <div id="image-gallery"></div>
-  <div id="moreLikeThis"></div>
   <div id="metadataApp"></div>
+  <div id="moreLikeThis"></div>
   <div id='reviewApp'></div>
 
   <!-- FOOTER -->
@@ -53,7 +70,7 @@
   <script src='http://100.24.35.141:4012/index_bundle.js'></script>
   <script src='http://54.193.16.203:4022/bundle.js'></script>
   <script src='http://18.144.23.11:4052/bundle.js'></script>
-  <!-- <script src='http://localhost:4032/index.js'></script> -->
+  <script src='http://ec2-3-227-255-185.compute-1.amazonaws.com/index.js'></script>
 
   <script>
     // ReactDOM render for tim's review service

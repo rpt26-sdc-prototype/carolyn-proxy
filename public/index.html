@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@700&display=swap" rel="stylesheet"><script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script><script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script><script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/styled-components/4.4.1/styled-components.min.js"></script><title>Anthony Proxy</title><style>body {
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@700&display=swap" rel="stylesheet"><script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script><script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script><script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/styled-components/4.4.1/styled-components.min.js"></script><title>Anthony Proxy</title><style>* {
       margin: 0;
       padding: 0;
     }
@@ -14,7 +14,24 @@
     #reviewApp,
     #moreLikeThis {
       background-color: #1b2838;
-    }</style><script defer="defer" src="index_bundle.js"></script></head><body><div id="header"></div><div id="image-gallery"></div><div id="moreLikeThis"></div><div id="metadataApp"></div><div id="reviewApp"></div><div id="footer"></div><script src="http://100.24.35.141:4012/index_bundle.js"></script><script src="http://54.193.16.203:4022/bundle.js"></script><script src="http://18.144.23.11:4052/bundle.js"></script><script>// ReactDOM render for tim's review service
+    }
+
+    #metadataApp {
+      color: #acb2b8;
+      margin-right: 30px;
+    }
+
+    #moreLikeThis {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    @media (min-width: 1675px) {
+      #metadataApp {
+        margin-top: -170px;
+        margin-right: 30px;
+      }
+    }</style><script defer="defer" src="index_bundle.js"></script></head><body><div id="header"></div><div id="image-gallery"></div><div id="metadataApp"></div><div id="moreLikeThis"></div><div id="reviewApp"></div><div id="footer"></div><script src="http://100.24.35.141:4012/index_bundle.js"></script><script src="http://54.193.16.203:4022/bundle.js"></script><script src="http://18.144.23.11:4052/bundle.js"></script><script src="http://ec2-3-227-255-185.compute-1.amazonaws.com/index.js"></script><script>// ReactDOM render for tim's review service
     ReactDOM.render(
       React.createElement(ReviewApp),
       document.getElementById('reviewApp')

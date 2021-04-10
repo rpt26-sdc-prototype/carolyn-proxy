@@ -47,7 +47,7 @@ app.get('/morelikethis/:id', async (req, res) => {
 
 // MetaData Routes
 app.get(`/api/product/:id`, async (req, res) => {
-  let { data } = await axios.get(`http://localhost:4032/api/product/${req.params.id}`);
+  let { data } = await axios.get(`http://ec2-3-227-255-185.compute-1.amazonaws.com/api/product/${req.params.id}`);
   res.send(data);
 });
 
