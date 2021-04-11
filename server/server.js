@@ -20,14 +20,12 @@ app.get('/:id', (req, res) => {
 
 // Image Routes
 app.get('/images/:id', async (req, res) => {
-  // const { data } = await axios.get(`http://localhost:4012/images/${req.params.id}`)
   const { data } = await axios.get(`http://100.24.35.141:4012/images/${req.params.id}`)
   res.send(data);
 })
 
 // Reviews Routes
 app.get('/reviews/:id', async (req, res) => {
-  // const { data } = await axios.get(`http://localhost:4052/reviews/${req.params.id}`);
   const { data } = await axios.get(`http://18.144.23.11:4052/reviews/${req.params.id}`);
   res.send(data);
 });
