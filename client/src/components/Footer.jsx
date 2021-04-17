@@ -1,26 +1,26 @@
 import React from 'react';
-import { Foot, FootNav, FootSelection, SteamLogo, Line, Buttons } from '../styling/FooterStyled.jsx';
+import '../styling/footer.css'
 
 const Footer = () => {
   return (
     <div style={{ backgroundColor: '#171a21' }}>
-      <Foot>
+      <div id="foot">
         <br />
-        <Line></Line>
+        <div className="line"></div>
         <div style={{ fontSize: '14px', marginLeft: '175px' }}>
-          <FootSelection href="#">&nbsp;&nbsp;&nbsp;ABOUT STEAM&nbsp;&nbsp;&nbsp;&nbsp;</FootSelection>
-          <FootSelection href="#">&nbsp;&nbsp;&nbsp;ABOUT VALVE&nbsp;&nbsp;&nbsp;&nbsp;</FootSelection>
-          <FootSelection href="#">&nbsp;&nbsp;&nbsp;HELP&nbsp;&nbsp;&nbsp;&nbsp;</FootSelection>
-          <FootSelection href="#">&nbsp;&nbsp;&nbsp;NEWS FEEDS&nbsp;&nbsp;&nbsp;</FootSelection>
+          <a className="footSelection" href="#">&nbsp;&nbsp;&nbsp;ABOUT STEAM&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          <a className="footSelection" href="#">&nbsp;&nbsp;&nbsp;ABOUT VALVE&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          <a className="footSelection" href="#">&nbsp;&nbsp;&nbsp;HELP&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          <a className="footSelection" href="#">&nbsp;&nbsp;&nbsp;NEWS FEEDS&nbsp;&nbsp;&nbsp;</a>
           <br />
         </div>
-        <Line></Line>
-        <FootNav>
+        <div className="line"></div>
+        <div id="footNav">
           <div style={{ marginTop: '-25px' }}>
             <span >
-              <Buttons href="#">
+              <span className="buttons" href="#">
                 <img src="https://steam-fec.s3.amazonaws.com/images/footerLogo_valve_new.png" alt="steam logo" width="90" height="25" />
-              </Buttons>
+              </span>
             </span>
           </div>
           <div style={{ marginTop: '-30px', marginBottom: '-5px' }}>
@@ -28,37 +28,37 @@ const Footer = () => {
               <span style={{ paddingLeft: '100px' }}>© 2021 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the 2 US and other countries</span>
               <div style={{ paddingLeft: '100px' }}>VAT included in all prices where applicable.
               <span>
-                  <Buttons href="#">&nbsp;&nbsp;&nbsp;Privacy Policy&nbsp;&nbsp;|&nbsp;&nbsp;</Buttons>
-                  <Buttons href="#">Legal&nbsp;&nbsp;|&nbsp;&nbsp;</Buttons>
-                  <Buttons href="#">Steam Subscriber Agreement&nbsp;&nbsp;|&nbsp;&nbsp;</Buttons>
-                  <Buttons href="#">Refunds</Buttons>
+                  <span className="buttons" href="#">&nbsp;&nbsp;&nbsp;Privacy Policy&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                  <span className="buttons" href="#">Legal&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                  <span className="buttons" href="#">Steam Subscriber Agreement&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                  <span className="buttons" href="#">Refunds</span>
                 </span>
               </div>
 
             </div>
           </div>
-          <SteamLogo >
+          <div id="steamLogo" >
             <div href="#" >
               <img src="https://steam-fec.s3.amazonaws.com/images/logo_steam_footer.png" alt="steam logo" width="90" height="30" />
             </div>
-          </SteamLogo>
-        </FootNav>
+          </div>
+        </div>
 
 
-        <Line></Line>
+        <div className="line"></div>
         <div style={{ fontSize: '14px', marginLeft: '175px' }}>
-          <Buttons href="">About Valve&nbsp;&nbsp;|</Buttons>
-          <Buttons href="">&nbsp;&nbsp;Steamworks&nbsp;|</Buttons>
-          <Buttons href="">&nbsp;&nbsp;Jobs&nbsp;|</Buttons>
-          <Buttons href="">&nbsp;&nbsp;Steam Distribution&nbsp;|</Buttons>
-          <Buttons href="">&nbsp;&nbsp;Gift Cards&nbsp;|</Buttons>
-          <Buttons href="">&nbsp;&nbsp;Gift Cards&nbsp;|</Buttons>
-          <Buttons href="">&nbsp;&nbsp;<img src="https://steam-fec.s3.amazonaws.com/images/ico_facebook.gif" alt="fb logo" width="17" height="17" style={{ verticalAlign: 'middle' }} />&nbsp;Steam&nbsp;|</Buttons>
-          <Buttons href="">&nbsp;&nbsp;<img src="https://steam-fec.s3.amazonaws.com/images/ico_twitter.gif" alt="twitter logo" width="17" height="17" style={{ verticalAlign: 'middle' }} />&nbsp;@steam</Buttons>
+          <span className="buttons" href="">About Valve&nbsp;&nbsp;|</span>
+          <span className="buttons" href="">&nbsp;&nbsp;Steamworks&nbsp;|</span>
+          <span className="buttons" href="">&nbsp;&nbsp;Jobs&nbsp;|</span>
+          <span className="buttons" href="">&nbsp;&nbsp;Steam Distribution&nbsp;|</span>
+          <span className="buttons" href="">&nbsp;&nbsp;Gift Cards&nbsp;|</span>
+          <span className="buttons" href="">&nbsp;&nbsp;Gift Cards&nbsp;|</span>
+          <span className="buttons" href="">&nbsp;&nbsp;<img src="https://steam-fec.s3.amazonaws.com/images/ico_facebook.gif" alt="fb logo" width="17" height="17" style={{ verticalAlign: 'middle' }} />&nbsp;Steam&nbsp;|</span>
+          <span className="buttons" href="">&nbsp;&nbsp;<img src="https://steam-fec.s3.amazonaws.com/images/ico_twitter.gif" alt="twitter logo" width="17" height="17" style={{ verticalAlign: 'middle' }} />&nbsp;@steam</span>
           <br />
         </div>
 
-      </Foot>
+      </div >
     </div>
   );
 };

@@ -1,45 +1,45 @@
 import React from 'react';
 import { FaDownload } from 'react-icons/fa';
 import { IoMdArrowDropdown } from 'react-icons/io';
-import { SecondNav, Container, SelectItem, Top, MediaHeader } from '../styling/HeaderStyled.jsx';
+import '../styling/header.css'
 
 const Header = () => {
   return (
     <div style={{ backgroundColor: '#171a21' }}>
-      <MediaHeader id="media-header">
+      <div id="media-header">
         <div>
-          <Top >
+          <div id="proxyTop" >
             <div style={{ fontSize: '13px' }}>
-              <SelectItem href="#" style={{
+              <a className="selectItem" href="#" style={{
                 color: '#e5e4dc',
                 backgroundColor: '#5c7e10',
                 padding: '4px 10px',
-              }}><FaDownload />&nbsp;&nbsp;Install Steam</SelectItem>
-              <SelectItem href="#" >&nbsp;&nbsp;&nbsp;login</SelectItem>
+              }}><FaDownload />&nbsp;&nbsp;Install Steam</a>
+              <a className="selectItem" href="#" >&nbsp;&nbsp;&nbsp;login</a>
               <span style={{
                 color: '#b8b6b4',
                 textDecoration: 'none'
               }}>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
-              <SelectItem href="" >language&nbsp;<IoMdArrowDropdown /></SelectItem>
+              <a className="selectItem" href="#" >language&nbsp;<IoMdArrowDropdown /></a>
             </div>
-          </Top>
-          <SecondNav>
+          </div>
+          <div id="secondNav">
             <div>
               <span style={{ position: 'absolute' }}>
-                <SelectItem href="#home">
+                <a className="selectItem" href="#home">
                   <img src="https://steam-fec.s3.amazonaws.com/images/logo_steam.svg" alt="steam logo" width="176" height="44" />
-                </SelectItem>
+                </a>
               </span>
             </div>
-            <Container>
-              <SelectItem href="#">STORE&nbsp;&nbsp;&nbsp;&nbsp;</SelectItem>
-              <SelectItem href="#">COMMUNITY&nbsp;&nbsp;&nbsp;&nbsp;</SelectItem>
-              <SelectItem href="#">ABOUT&nbsp;&nbsp;&nbsp;&nbsp;</SelectItem>
-              <SelectItem href="#">SUPPORT</SelectItem>
-            </Container>
-          </SecondNav>
+            <div id="container">
+              <a className="selectItem" href="#">STORE&nbsp;&nbsp;&nbsp;&nbsp;</a>
+              <a className="selectItem" href="#">COMMUNITY&nbsp;&nbsp;&nbsp;&nbsp;</a>
+              <a className="selectItem" href="#">ABOUT&nbsp;&nbsp;&nbsp;&nbsp;</a>
+              <a className="selectItem" href="#">SUPPORT</a>
+            </div>
+          </div>
         </div>
-      </MediaHeader>
+      </div>
     </div>
   );
 };
