@@ -19,6 +19,8 @@
 
 > npm install -g webpack & npm install.
 > open package.json file for scripts
+> npm run build
+> npm start
 
 
 ## Requirements
